@@ -13,3 +13,4 @@ F11,select,Threezs/nature-methods-bioinformatics-catalog,multimodal spatial omic
 F12,select,Threezs/nature-methods-bioinformatics-catalog,multimodal integration benchmark,python/11_scmmib_manifest.py,task-specific accuracy robustness scalability,project-specific repository
 F13,select,Threezs/nature-methods-bioinformatics-catalog,multitask multimodal integration benchmark,python/12_scmultibench_manifest.py,task-level integration metrics,bioinformatics-methods-cookbook
 F14,select,Threezs/nature-methods-bioinformatics-catalog,nanopore RNA modification benchmark,python/13_narmbench_manifest.py,site-level detection and calibration,research-evidence-notebook
+F15,select,Threezs/nature-methods-bioinformatics-catalog,spatial omics data infrastructure and coordinate interoperability,python/16_spatialdata_manifest.py,element and coordinate audit before spatial models,research-evidence-notebook
