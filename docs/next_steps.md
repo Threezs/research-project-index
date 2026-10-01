@@ -43,3 +43,9 @@
 2. 在 nature-methods-bioinformatics-catalog 运行 `python/17_scikit_bio_manifest.py`，再安装官方环境执行具体 API。
 3. 以 assay-specific baseline 和样本/重复层级结果进行比较，不把单次库调用当作机制证据。
 4. 将解析参数、随机种子、软件版本和输入哈希写入 evidence notebook。
+## 空间域聚类与共识
+
+1. 在 literature-workbench 登记 P021 / SACCELERATOR，固定方法 commit、数据集 split、坐标、指标和专家评审协议。
+2. 在 nature-methods-bioinformatics-catalog 运行 `python/18_saccelerator_manifest.py`，同时保留空间与非空间指标。
+3. 将高分歧/高 entropy 区域回看原始组织图像、坐标变换和分割结果，再由专家复核。
+4. 将手工标签、共识聚类和独立分子/扰动证据分开记录，不能把其中一层直接写成机制结论。
