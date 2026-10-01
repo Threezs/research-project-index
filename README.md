@@ -81,3 +81,5 @@
 - **NaRMBench**：nanopore direct-RNA 修饰检测评估，按 RNA002/RNA004 chemistry、ground truth、retraining 和 site-level calibration 记录。
 
 这两个方向保留在 catalog 的 manifest-only 分支，适合方法筛选和审计；真正的 benchmark 数值要在官方环境中重新运行。
+
+- **PINNACLE**：单细胞蛋白上下文和靶点优先级；先审计 expression、PPI network、cell-type/tissue metadata，再在 held-out 任务上比较排序基线。
