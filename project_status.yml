@@ -1,0 +1,25 @@
+updated: 2026-10-01
+owner: Threezs
+projects:
+  APAP24H:
+    repository: Threezs/rnaseq-analysis-template
+    stage: template_ready
+    next:
+      - replace mock counts with registered raw integer matrix
+      - complete QC and design audit
+      - run edgeR QL primary and DESeq2/limma sensitivity analyses
+      - connect significant results to literature claims
+  IR_LIVER:
+    repository: Threezs/research-evidence-notebook
+    stage: hypothesis_registry
+    next:
+      - verify mouse evidence for each proposed interaction
+      - separate recruitment, transmigration and endothelial-response claims
+      - design perturbation and co-culture validation
+  CRLM:
+    repository: Threezs/bioinformatics-literature-workbench
+    stage: literature_synthesis
+    next:
+      - register state gene sets and source papers
+      - compare primary and liver-metastasis states
+      - link state scores to analysis outputs
