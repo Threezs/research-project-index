@@ -73,3 +73,11 @@
 - **SCMMIB**：paired/unpaired/mosaic 多模态整合 benchmark；按任务记录 accuracy、robustness 和 scalability。
 
 它们适合作为 APAP/IR/CRLM 单细胞或空间项目的候选扩展，不替代 bulk RNA-seq 主统计模型，也不把 manifest 当作模型已完成推理。
+
+
+## 近期方法继续扩展
+
+- **scMultiBench**：多任务多模态整合评估，按 reduction、batch correction、clustering、classification、imputation、feature selection、spatial registration 和 split 记录。
+- **NaRMBench**：nanopore direct-RNA 修饰检测评估，按 RNA002/RNA004 chemistry、ground truth、retraining 和 site-level calibration 记录。
+
+这两个方向保留在 catalog 的 manifest-only 分支，适合方法筛选和审计；真正的 benchmark 数值要在官方环境中重新运行。

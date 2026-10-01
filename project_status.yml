@@ -22,6 +22,8 @@ projects:
       - for Mellon, fix the representation and aggregate density by sample/donor
       - for MISO, audit spot/cell keys, coordinates and modality preprocessing
       - for SCMMIB, choose paired/unpaired/mosaic task before comparing metrics
+      - for scMultiBench, choose task and split before quoting multimodal benchmark metrics
+      - for NaRMBench, record chemistry, ground truth and retraining status before RNA-modification claims
   IR_LIVER:
     repository: Threezs/research-evidence-notebook
     stage: hypothesis_registry
