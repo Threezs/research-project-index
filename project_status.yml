@@ -25,6 +25,7 @@ projects:
       - for scMultiBench, choose task and split before quoting multimodal benchmark metrics
       - for NaRMBench, record chemistry, ground truth and retraining status before RNA-modification claims
       - for PINNACLE, record PPI network version, context labels, checkpoint hash and held-out target-ranking split
+      - for PHLOWER, record shared cell IDs, modality preprocessing, root/direction and branch stability before trajectory claims
   IR_LIVER:
     repository: Threezs/research-evidence-notebook
     stage: hypothesis_registry
