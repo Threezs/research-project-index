@@ -83,3 +83,5 @@
 这两个方向保留在 catalog 的 manifest-only 分支，适合方法筛选和审计；真正的 benchmark 数值要在官方环境中重新运行。
 
 - **PINNACLE**：单细胞蛋白上下文和靶点优先级；先审计 expression、PPI network、cell-type/tissue metadata，再在 held-out 任务上比较排序基线。
+
+- **PHLOWER**：多模态复杂分支轨迹；先审计共享 cell ID、模态预处理和 root/direction，再比较 branch stability。
