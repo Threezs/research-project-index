@@ -14,3 +14,4 @@ F12,select,Threezs/nature-methods-bioinformatics-catalog,multimodal integration 
 F13,select,Threezs/nature-methods-bioinformatics-catalog,multitask multimodal integration benchmark,python/12_scmultibench_manifest.py,task-level integration metrics,bioinformatics-methods-cookbook
 F14,select,Threezs/nature-methods-bioinformatics-catalog,nanopore RNA modification benchmark,python/13_narmbench_manifest.py,site-level detection and calibration,research-evidence-notebook
 F15,select,Threezs/nature-methods-bioinformatics-catalog,spatial omics data infrastructure and coordinate interoperability,python/16_spatialdata_manifest.py,element and coordinate audit before spatial models,research-evidence-notebook
+F16,select,Threezs/nature-methods-bioinformatics-catalog,general sequence table distance diversity taxonomy and phylogeny toolkit,python/17_scikit_bio_manifest.py,operation and format audit before assay-specific analysis,bioinformatics-methods-cookbook
