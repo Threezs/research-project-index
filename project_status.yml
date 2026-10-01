@@ -9,6 +9,14 @@ projects:
       - complete QC and design audit
       - run edgeR QL primary and DESeq2/limma sensitivity analyses
       - connect significant results to literature claims
+  METHOD_CATALOG:
+    repository: Threezs/nature-methods-bioinformatics-catalog
+    stage: catalog_ready
+    next:
+      - pin R/Bioconductor and Python environments for the selected method
+      - run the mock inputs before replacing paths with real data
+      - record checkpoint license, version and SHA256 for foundation models
+      - compare each method with an interpretable classical baseline
   IR_LIVER:
     repository: Threezs/research-evidence-notebook
     stage: hypothesis_registry
