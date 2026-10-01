@@ -1,0 +1,19 @@
+# 下一步使用顺序
+
+## 第一次使用
+
+1. 在 Zotero 中整理一批核心论文。
+2. 从 Better BibTeX 导出 metadata 到 literature workbench。
+3. 为每篇论文复制 paper-note 模板。
+4. 把可核查结论登记到 evidence notebook。
+
+## APAP RNA-seq
+
+1. 将 count matrix 和 sample metadata 放到本地项目，不上传原始敏感数据。
+2. 在 `rnaseq-analysis-template/config/project.yml` 登记设计、对比和阈值。
+3. 先完成样本 QC，再运行 edgeR QL。
+4. 把 DE、ORA、GSEA、PROGENy、GSVA 和 TF 活性结果的解释依据回链到文献。
+
+## 维护
+
+每次分析产生新结论时，同步更新 `project_status.yml`、文献 claims 和方法版本。不要只保存最终图片。
