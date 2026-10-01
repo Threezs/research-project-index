@@ -1,0 +1,8 @@
+*.pdf
+data/raw/*
+data/private/*
+outputs/*
+.Rhistory
+.RData
+.Rproj.user/
+.env
