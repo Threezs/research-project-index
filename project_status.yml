@@ -11,11 +11,13 @@ projects:
       - connect significant results to literature claims
   METHOD_CATALOG:
     repository: Threezs/nature-methods-bioinformatics-catalog
-    stage: catalog_ready
+    stage: functional_catalog_v2
     next:
-      - pin R/Bioconductor and Python environments for the selected method
-      - run the mock inputs before replacing paths with real data
+      - read docs/function_map.md and choose by research question and input contract
+      - run the dependency-light input audit and record sample/donor IDs
+      - distinguish baseline-function, runtime-required, integration-required and manifest-only
       - record checkpoint license, version and SHA256 for foundation models
+      - aggregate cell-level outputs to sample/donor before condition comparison
       - compare each method with an interpretable classical baseline
   IR_LIVER:
     repository: Threezs/research-evidence-notebook
