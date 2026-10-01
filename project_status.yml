@@ -19,6 +19,9 @@ projects:
       - record checkpoint license, version and SHA256 for foundation models
       - aggregate cell-level outputs to sample/donor before condition comparison
       - compare each method with an interpretable classical baseline
+      - for Mellon, fix the representation and aggregate density by sample/donor
+      - for MISO, audit spot/cell keys, coordinates and modality preprocessing
+      - for SCMMIB, choose paired/unpaired/mosaic task before comparing metrics
   IR_LIVER:
     repository: Threezs/research-evidence-notebook
     stage: hypothesis_registry

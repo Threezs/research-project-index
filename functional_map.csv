@@ -8,3 +8,6 @@ F06,upstream,Threezs/RNA_pipeline,GEO/本地数据上游处理,README.md and wor
 F07,chemistry,Threezs/network-pharmacology-target-acquisition,成分-靶点和网络药理学,README.md,compound-target candidates,ligand-receptor-docking-workflow
 F08,structure,Threezs/ligand-receptor-docking-workflow,配体受体和结构验证,README.md,prepared structures and docking/MD inputs,experimental validation
 F09,report,Threezs/nature-methods-bioinformatics-catalog,细胞级结果回到 sample/donor,python/08_sample_level_summary.py or R/05_sample_level_summary.R,sample-level tables before condition comparison,research-evidence-notebook
+F10,select,Threezs/nature-methods-bioinformatics-catalog,cell-state density and temporal interpolation,python/09_mellon_template.py,manifest and later density outputs,research-evidence-notebook
+F11,select,Threezs/nature-methods-bioinformatics-catalog,multimodal spatial omics integration,python/10_miso_manifest.py,spatial multimodal embedding and clusters,research-evidence-notebook
+F12,select,Threezs/nature-methods-bioinformatics-catalog,multimodal integration benchmark,python/11_scmmib_manifest.py,task-specific accuracy robustness scalability,project-specific repository

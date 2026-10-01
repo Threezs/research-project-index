@@ -62,3 +62,14 @@
 - `runtime/integration-required`：必须接入真实 AnnData、BAM、GTF、FASTA 或 transcript count。
 - `manifest-only`：当前只固定 checkpoint、输入和版本，不能把配置文件当作已完成推理。
 - `sample-level-required`：CellRank、embedding、niche 和细胞比例等输出需要回到 sample/donor 后才进入条件比较。
+
+
+## 新增的近期方法分支
+
+方法目录已经加入三个新的 Nature Methods 方向，统一由 `execution_mode` 标记为 manifest-only：
+
+- **Mellon**：cell-state density 与时间连续化；先固定 representation，再把 density 按 sample/donor 汇总。
+- **MISO**：多模态空间组学整合；先审计 shared spot/cell key、坐标和图像特征。
+- **SCMMIB**：paired/unpaired/mosaic 多模态整合 benchmark；按任务记录 accuracy、robustness 和 scalability。
+
+它们适合作为 APAP/IR/CRLM 单细胞或空间项目的候选扩展，不替代 bulk RNA-seq 主统计模型，也不把 manifest 当作模型已完成推理。
