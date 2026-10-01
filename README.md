@@ -103,3 +103,9 @@
 - **Novae / P022**：图结构 foundation model，支持 spot/cell 空间域、跨 gene panel/组织/技术平台迁移、原生 batch correction、空间可变基因/通路和组织架构分析。
 - 入口：`python/19_novae_manifest.py`；在 SpatialData 坐标/元素审计后固定 panel、batch/section split、checkpoint hash，并用 held-out section、marker 或图像验证。
 - 当前状态是 `manifest-only`，完整阅读卡片在 literature-workbench 的 P022，模型推理仍需官方环境。
+
+## 多模态与空间模拟扩展
+
+- **scMultiSim / P023**：R/Bioconductor 模拟器，使用 cell differential tree、GRN 和可控互作/技术噪声生成 RNA、ATAC、velocity 与空间 truth。
+- 入口：`python/20_scmultisim_manifest.py`；先固定参数、seed、负对照和 benchmark split，再将模拟结果与经验数据 sanity check 分开记录。
+- 当前状态是 `manifest-only`，完整阅读卡片在 literature-workbench 的 P023。
