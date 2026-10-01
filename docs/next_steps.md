@@ -37,3 +37,9 @@
 2. 在 nature-methods-bioinformatics-catalog 运行 `python/16_spatialdata_manifest.py`，先检查 table/image/labels/shapes/points 的 linkage。
 3. 对照平台原生 viewer 检查一小块组织的坐标、分割和配准，再进入 Nicheformer、MISO 或传统邻域分析。
 4. 将读写/坐标审计与生物学解释分开记录，不能把互操作成功当作空间机制证据。
+## 通用序列/表格工具
+
+1. 在 literature-workbench 登记 P020 / scikit-bio，固定操作、格式、序列/样本 ID、metadata、距离/树约定和统计设计。
+2. 在 nature-methods-bioinformatics-catalog 运行 `python/17_scikit_bio_manifest.py`，再安装官方环境执行具体 API。
+3. 以 assay-specific baseline 和样本/重复层级结果进行比较，不把单次库调用当作机制证据。
+4. 将解析参数、随机种子、软件版本和输入哈希写入 evidence notebook。
