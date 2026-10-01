@@ -31,3 +31,9 @@
 2. 在 nature-methods-bioinformatics-catalog 运行 `python/15_phlower_manifest.py`。
 3. 先用 CellRank 或图拉普拉斯 baseline，报告共享 cell ID、root/direction 和 branch stability。
 4. 将候选转录因子回链到 evidence notebook，并用时间、扰动或空间数据验证。
+## 空间数据基础设施
+
+1. 在 literature-workbench 登记 P019 / SpatialData，并固定平台、reader、元素类型、坐标系、单位和变换链。
+2. 在 nature-methods-bioinformatics-catalog 运行 `python/16_spatialdata_manifest.py`，先检查 table/image/labels/shapes/points 的 linkage。
+3. 对照平台原生 viewer 检查一小块组织的坐标、分割和配准，再进入 Nicheformer、MISO 或传统邻域分析。
+4. 将读写/坐标审计与生物学解释分开记录，不能把互操作成功当作空间机制证据。
