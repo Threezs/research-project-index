@@ -25,4 +25,9 @@
 3. 用 PPI degree、random walk 或 GAT 做 baseline，在 cell-type/tissue 分层的 held-out split 上报告排序指标。
 4. 将候选靶点回链到 evidence notebook，并安排独立互作、扰动或药效验证。
 
-## 多模态复杂分支轨迹\n\n1. 在 literature-workbench 登记 P018 / PHLOWER，并固定官方版本和输入模态。\n2. 在 nature-methods-bioinformatics-catalog 运行 `python/15_phlower_manifest.py`。\n3. 先用 CellRank 或图拉普拉斯 baseline，报告共享 cell ID、root/direction 和 branch stability。\n4. 将候选转录因子回链到 evidence notebook，并用时间、扰动或空间数据验证。\n
+## 多模态复杂分支轨迹
+
+1. 在 literature-workbench 登记 P018 / PHLOWER，并固定官方版本和输入模态。
+2. 在 nature-methods-bioinformatics-catalog 运行 `python/15_phlower_manifest.py`。
+3. 先用 CellRank 或图拉普拉斯 baseline，报告共享 cell ID、root/direction 和 branch stability。
+4. 将候选转录因子回链到 evidence notebook，并用时间、扰动或空间数据验证。
