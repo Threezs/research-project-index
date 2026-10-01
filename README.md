@@ -93,3 +93,7 @@
 
 - **scikit-bio / P020**：序列、表格、距离、多样性、taxonomy 和系统发育的通用入口；先固定操作、格式、ID、metadata 和统计设计。
 - 入口为 `python/17_scikit_bio_manifest.py`，不自动替代样本级设计或生物学验证。
+## 空间域聚类共识层
+
+- **SACCELERATOR / P021**：在 SpatialData/MISO/Nicheformer 后比较空间聚类方法、空间指标与专家共识；入口为 `python/18_saccelerator_manifest.py`。
+- 手工标签作为比较证据，不能自动当作真值；高分歧区域要回到原始图像和独立验证。
