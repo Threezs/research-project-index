@@ -89,3 +89,7 @@
 
 - **SpatialData / P019**：进入空间模型前先固定元素、坐标、单位、变换和平台 reader；入口为 `python/16_spatialdata_manifest.py`。
 - 它用于互操作和可追溯性，不自动修复 segmentation/registration，也不替代空间生物学验证。
+## 通用 Python 工具层
+
+- **scikit-bio / P020**：序列、表格、距离、多样性、taxonomy 和系统发育的通用入口；先固定操作、格式、ID、metadata 和统计设计。
+- 入口为 `python/17_scikit_bio_manifest.py`，不自动替代样本级设计或生物学验证。
