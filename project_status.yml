@@ -29,6 +29,7 @@ projects:
       - for SpatialData, record element types, coordinate systems, units, transform chain and platform reader before spatial modeling
       - for scikit-bio, record operation, file format, sequence/sample IDs, metadata and assay-specific statistical design
       - for SACCELERATOR, record spatial metrics, method commits, dataset splits and expert-review protocol; do not treat manual labels as automatic truth
+      - for Novae, record SpatialData elements/coordinates, gene-panel coverage, batch and section split, checkpoint hash and orthogonal marker or image validation
   IR_LIVER:
     repository: Threezs/research-evidence-notebook
     stage: hypothesis_registry
