@@ -85,3 +85,7 @@
 - **PINNACLE**：单细胞蛋白上下文和靶点优先级；先审计 expression、PPI network、cell-type/tissue metadata，再在 held-out 任务上比较排序基线。
 
 - **PHLOWER**：多模态复杂分支轨迹；先审计共享 cell ID、模态预处理和 root/direction，再比较 branch stability。
+## 空间数据基础设施
+
+- **SpatialData / P019**：进入空间模型前先固定元素、坐标、单位、变换和平台 reader；入口为 `python/16_spatialdata_manifest.py`。
+- 它用于互操作和可追溯性，不自动修复 segmentation/registration，也不替代空间生物学验证。
