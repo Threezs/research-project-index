@@ -5,6 +5,7 @@ EVID,Threezs/research-evidence-notebook,claim-level evidence,R/Markdown,private,
 COMP,Threezs/research-compendium-template-r,reproducible project skeleton,R/Quarto,private,README.md,template
 RNA,Threezs/rnaseq-analysis-template,bulk RNA-seq analysis,R/Python,private,README.md,template
 COOK,Threezs/bioinformatics-methods-cookbook,reusable methods,R/Python,private,README.md,active
+NMETHODS,Threezs/nature-methods-bioinformatics-catalog,recent methods and turnkey templates,R/Python,private,README.md,active
 UPSTREAM,Threezs/RNA_pipeline,Snakemake upstream pipeline,Snakemake/R,private,README.md,active
 NETWORK,Threezs/network-pharmacology-target-acquisition,network pharmacology archive,R/Chinese,private,README.md,active
 DOCK,Threezs/ligand-receptor-docking-workflow,docking workflow,Python/PowerShell,private,README.md,active
