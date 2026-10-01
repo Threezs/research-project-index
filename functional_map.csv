@@ -1,0 +1,9 @@
+function_id,stage,repository,function,entry_point,primary_output,next_repository
+F01,discover,Threezs/bioinformatics-literature-workbench,文献元数据和逐篇阅读,literature/notes/ and data/papers.csv,nature-methods-bioinformatics-catalog
+F02,select,Threezs/nature-methods-bioinformatics-catalog,按功能选择近期方法,docs/function_map.md and catalog.csv,project-specific run manifest,research-compendium-template-r
+F03,baseline,Threezs/rnaseq-analysis-template,bulk RNA-seq primary analysis,README.md and R scripts,DE/enrichment/activity tables,bioinformatics-methods-cookbook
+F04,reuse,Threezs/bioinformatics-methods-cookbook,可复用 R/Python 配方,docs/function_map.md and R/,audited analysis outputs,research-evidence-notebook
+F05,evidence,Threezs/research-evidence-notebook,claim-level 证据和机制链,README.md and evidence tables,claim cards and validation plan,project-specific repository
+F06,upstream,Threezs/RNA_pipeline,GEO/本地数据上游处理,README.md and workflow,registered processed inputs,rnaseq-analysis-template
+F07,chemistry,Threezs/network-pharmacology-target-acquisition,成分-靶点和网络药理学,README.md,compound-target candidates,ligand-receptor-docking-workflow
+F08,structure,Threezs/ligand-receptor-docking-workflow,配体受体和结构验证,README.md,prepared structures and docking/MD inputs,experimental validation
