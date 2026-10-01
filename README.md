@@ -97,3 +97,9 @@
 
 - **SACCELERATOR / P021**：在 SpatialData/MISO/Nicheformer 后比较空间聚类方法、空间指标与专家共识；入口为 `python/18_saccelerator_manifest.py`。
 - 手工标签作为比较证据，不能自动当作真值；高分歧区域要回到原始图像和独立验证。
+
+## 空间 foundation model 扩展
+
+- **Novae / P022**：图结构 foundation model，支持 spot/cell 空间域、跨 gene panel/组织/技术平台迁移、原生 batch correction、空间可变基因/通路和组织架构分析。
+- 入口：`python/19_novae_manifest.py`；在 SpatialData 坐标/元素审计后固定 panel、batch/section split、checkpoint hash，并用 held-out section、marker 或图像验证。
+- 当前状态是 `manifest-only`，完整阅读卡片在 literature-workbench 的 P022，模型推理仍需官方环境。
