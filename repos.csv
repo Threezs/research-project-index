@@ -1,0 +1,10 @@
+repo_id,repository,role,language,privacy,entry_point,status
+LIT,Threezs/bioinformatics-literature-workbench,literature metadata and notes,R/Quarto,private,README.md,active
+ZOT,Threezs/zotero-literature-tools,Zotero and BibTeX utilities,R/Python,private,README.md,active
+EVID,Threezs/research-evidence-notebook,claim-level evidence,R/Markdown,private,README.md,active
+COMP,Threezs/research-compendium-template-r,reproducible project skeleton,R/Quarto,private,README.md,template
+RNA,Threezs/rnaseq-analysis-template,bulk RNA-seq analysis,R/Python,private,README.md,template
+COOK,Threezs/bioinformatics-methods-cookbook,reusable methods,R/Python,private,README.md,active
+UPSTREAM,Threezs/RNA_pipeline,Snakemake upstream pipeline,Snakemake/R,private,README.md,active
+NETWORK,Threezs/network-pharmacology-target-acquisition,network pharmacology archive,R/Chinese,private,README.md,active
+DOCK,Threezs/ligand-receptor-docking-workflow,docking workflow,Python/PowerShell,private,README.md,active
