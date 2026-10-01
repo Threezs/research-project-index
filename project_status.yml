@@ -24,6 +24,7 @@ projects:
       - for SCMMIB, choose paired/unpaired/mosaic task before comparing metrics
       - for scMultiBench, choose task and split before quoting multimodal benchmark metrics
       - for NaRMBench, record chemistry, ground truth and retraining status before RNA-modification claims
+      - for PINNACLE, record PPI network version, context labels, checkpoint hash and held-out target-ranking split
   IR_LIVER:
     repository: Threezs/research-evidence-notebook
     stage: hypothesis_registry
