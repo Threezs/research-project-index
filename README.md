@@ -44,3 +44,21 @@
 3. 完整结果表；
 4. 绘图数据和最终图片；
 5. 图注、方法版本和审计记录。
+
+
+## 按功能使用仓库
+
+| 科研阶段 | 先进入 | 再进入 | 结果/证据 |
+|---|---|---|---|
+| 文献发现与方法选择 | bioinformatics-literature-workbench | nature-methods-bioinformatics-catalog | DOI、方法卡片、功能入口和限制 |
+| 原始 count 与 bulk RNA-seq | rnaseq-analysis-template | bioinformatics-methods-cookbook | QC、edgeR QL、DE、ORA/GSEA、TF activity |
+| 单细胞/空间方法 | nature-methods-bioinformatics-catalog | bioinformatics-methods-cookbook | 输入审计、baseline、模型输出和样本级汇总 |
+| 机制证据管理 | research-evidence-notebook | literature-workbench | claim、替代解释和验证实验 |
+| 网络药理学与对接 | network-pharmacology-target-acquisition | ligand-receptor-docking-workflow | 成分-靶点、配体/受体、结构与 MD 交接 |
+
+### 方法状态的统一含义
+
+- `baseline-function`：依赖轻、结果可解释，适合先建立基线。
+- `runtime/integration-required`：必须接入真实 AnnData、BAM、GTF、FASTA 或 transcript count。
+- `manifest-only`：当前只固定 checkpoint、输入和版本，不能把配置文件当作已完成推理。
+- `sample-level-required`：CellRank、embedding、niche 和细胞比例等输出需要回到 sample/donor 后才进入条件比较。
